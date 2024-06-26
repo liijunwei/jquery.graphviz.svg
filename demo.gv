@@ -20,7 +20,10 @@
  * SOFTWARE.
  */
 
+// dot -Tsvg ./demo.gv -o ./demo.svg && open http://localhost:8000/demo.html
  digraph world {
+  // rankdir = LR;
+
 	bgcolor="#2e3e56"
 	pad="0.5" /* add padding round the edge of the graph */
 	/*
