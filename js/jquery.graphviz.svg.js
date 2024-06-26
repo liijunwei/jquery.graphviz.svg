@@ -249,7 +249,7 @@
     this.zoom = {width: $svg.attr('width'), height: $svg.attr('height'), percentage: null }
     this.scaleView(100.0)
     $element.mousewheel(function (evt) {
-        if (evt.shiftKey) {
+        if (evt.metaKey) {
           var percentage = that.zoom.percentage
           percentage -= evt.deltaY * evt.deltaFactor
           if (percentage < 100.0) {
